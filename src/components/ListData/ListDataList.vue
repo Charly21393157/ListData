@@ -21,7 +21,7 @@
 <script setup lang="ts">
 import ListDataItem from './ListDataItem.vue';
 import ListDataData from '@/data/ListDataData';
-import { IListData } from '@/interfaces/IListData';
+import type { IListData } from '@/interfaces/IListData';
 import { ref, computed } from 'vue';
 
 const dataList: IListData[] = ListDataData;

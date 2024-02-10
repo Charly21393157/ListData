@@ -7,7 +7,7 @@
 
 <script setup lang="ts">
 import { defineProps, defineEmits } from 'vue';
-import { IListData } from '@/interfaces/IListData';
+import type { IListData } from '@/interfaces/IListData';
 
 const props = defineProps<{
   item: IListData;
