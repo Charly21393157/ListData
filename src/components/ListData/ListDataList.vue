@@ -42,6 +42,7 @@ const addItem = () => {
       dataList.push({ id, name, description, color: 'black', bgColor: 'white' });
       newItemName.value = '';
       newItemDescription.value = '';
+      alert('Item added successfully!');
     } else {
       alert('Item already exists!');
     }
